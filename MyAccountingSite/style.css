@@ -1,0 +1,103 @@
+/* Styles go here */
+
+.sub {
+  vertical-align: sub;
+  font-size: 12px;
+}
+
+body {
+  background-image: linear-gradient(to right top, #141516, #242629, #35393d, #484d53, #5b6169) !important;
+
+  background: green;
+  background-size: cover;
+  color: white !important;
+  text-align: left;
+  text-shadow: -3px 2px 3px rgba(0, 55, 53, 0.88);
+}
+
+.jumbotron {
+  color: white !important;
+  
+  
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url("https://cdn.wallpapersafari.com/72/14/paCeE9.jpg") !important;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.overline {
+  text-decoration: overline !important;
+}
+
+.vanish {
+  display: none;
+}
+
+.show {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #891016;
+  font-weight: bolder;
+  margin-right: 55%;
+  padding: 10px;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+h3 {
+  color: white;
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+  url("https://cdn.wallpapersafari.com/72/14/paCeE9.jpg") !important;
+  background-size: 275px 100px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 65%;
+  text-align: center;
+}
+h4 {
+  color: #FF5A09 !important;
+  text-shadow: 5px 8px 12px #000000;
+  }
+h5 {
+  color: #FF5A09 !important;
+  text-shadow: 5px 8px 12px #000000;
+  }
+
+strong {
+  color: white;
+  font-size: 15pt;
+}
+
+td {
+  border: white 2px solid;
+  font-weight: bold;
+  padding: 5px !important;
+}
+
+table {
+  margin: auto auto;
+  color: white !important;
+  background-color: rgba(0, 55, 53, 0.3) !important;
+}
+
+.spread td {
+  margin: 5px;
+}
+
+.conclusion {
+  color: gold !important;
+}
+
+.footer {
+  background-color: rgba(0, 55, 53, 0.3) !important;
+  padding-bottom: 10px;
+}

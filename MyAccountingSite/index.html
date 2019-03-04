@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Accounting Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/0a10f93b45.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<strong>
+				<h1>My Sim Project</h1>
+			</strong>
+			<h4>A collection of the things I have learned during Managerial Accounting</h4>
+			<h4>by Jesse Lott, MGMT 312</h4>
+		</div>
+		<div class="spread">
+			<h3>Managerial Accounting</h3>
+			<h5>Definition</h5>
+			<p>
+				Managerial accounting provides accounting information for decision makers internal to an organization.
+				The concentration of the information
+				disseminated contains both financial and non-financial accounts to enable managers, supervisors,
+				foremen,
+				and directors to make good decisions that translate into success for their organization (Miller-Nobles,
+				Mattison, & Matsumura, 2018).
+			</p>
+			<h5>Discussion</h5>
+			<p>
+					The managerial accounting functions of planning, directing, and controlling encompass the information 
+					that business managers need to manage their plants, equipment, and human resources 
+					(Miller-Nobles, Mattison, & Matsumura, 2018).  
+			</p>
+			<h5>Practical Use</h5>
+			<p>Calculate your WIP!</p>
+			<form>
+
+					<div class="form-group">
+						<label for="Labor">Labor</label>
+						<input type="number" onchange="CalculateWip()" class="form-control" id="labor" placeholder="0">
+					</div>
+					<div class="form-group">
+						<label for="Materials">Materials</label>
+						<input type="number" onchange="CalculateWip()"  class="form-control" id="materials" placeholder="0">
+					</div>
+					<div class="form-group">
+						<label for="Factory Overhead">Factory Overhead</label>
+						<input type="number" onchange="CalculateWip()"  class="form-control" id="overhead" placeholder="0">
+					</div>
+					<div class="form-group">
+							<label for="WIP">WIP</label>
+							<input type="number" class="form-control" id="wip" placeholder="0" readonly>
+						</div>
+				</form>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+
+		</div>
+		<div>
+			<h3>Job Order Costing</h3>
+			<h5>Definition</h5>
+			<p>
+					Job order costing is the process of accumulating costs for each single unique product or specialized service.  
+					The overlying goal of job order costing is to keep track of the costs associated with the action (Miller-Nobles, Mattison, & Matsumura, 2018).  
+			</p>
+			<h5>Discussion</h5>
+			<p>When a job is assigned, direct and indirect costs for the job are added to the Work-In-Progress Inventory (WIP).  
+				Once the work is completed, costs are transferred to Finished Goods (FG).  When the job is sold, 
+				the cost moves into Cost of Goods Sold (COGS) and is removed from FG.  
+			</p>
+			<h5>Practical Use</h5>
+			<p>Practice Job Costing!</p>
+			<form>					
+					<div class="form-group">
+						<label for="job1direct">Job 1 Direct Costs</label>
+						<input type="number" onchange="CalculateJobOne()" class="form-control" id="job1direct" placeholder="0">
+					</div>
+					<div class="form-group">
+						<label for="job1indirect">Job 1 Indirect Costs</label>
+						<input type="number" onchange="CalculateJobOne()"  class="form-control" id="job1indirect" placeholder="0">
+					</div>
+					<div class="form-group">
+							<label for="job1">Job 1 Total</label>
+							<input type="number" class="form-control" id="job1" placeholder="0" readonly>
+						</div>
+					<div class="form-group">
+						<label for="job2direct">Job 2 Direct Costs</label>
+						<input type="number" onchange="CalculateJobTwo()"  class="form-control" id="job2direct" placeholder="0">
+					</div>
+					<div class="form-group">
+						<label for="job2indirect">Job 2 Indirect Costs</label>
+						<input type="number" onchange="CalculateJobTwo()"  class="form-control" id="job2indirect" placeholder="0">
+					</div>
+					<div class="form-group">
+							<label for="job2">Job 2 Total</label>
+							<input type="number" class="form-control" id="job2" placeholder="0" readonly>
+					</div>
+					<div class="form-group">
+							<label for="jobWip">WIP</label>
+							<input type="number" class="form-control" id="jobWip" placeholder="0" readonly value="38000">
+					</div>
+					</form>					
+				</form>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+		</div>
+		<div>
+			<h3>Process Order Costing</h3>
+			<h5>Definition</h5>
+			<p>
+				Definition
+			</p>
+			<h5>Discussion</h5>
+			<p>
+				Define Process order costing. Trace the flow of costs through a process order costing system. Explain
+				the
+				concept and calculation of equivalent units of production. Discuss the production report as a decision
+				making tool.
+			</p>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+
+		</div>
+		<div>
+			<h3>Cost Management Systems</h3>
+			<h5>Definition</h5>
+			<p>
+				Definition
+			</p>
+			<h5>Discussion</h5>
+			<p>
+				Analyze the process of assigning and allocating costs. Discuss the development of an activity-based
+				costing system and how activity based costing system and how activity based management is used in
+				decision making. Compare and contrast Just-In-Time and Quality Management Systems.
+			</p>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+
+
+		</div>
+		<div>
+			<h3>Cost-Volume-Profit Analysis</h3>
+			<h5>Definition</h5>
+			<p>
+				Definition
+			</p>
+			<h5>Discussion</h5>
+			<p>
+				Analyze cost behavior in relation to changes in volume. Define contribution margin and its use in
+				computing operating income. Discuss cost-volume-profit (CVP) analysis and how it is used as a decision
+				tool.
+			</p>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+
+
+		</div>
+		<div>
+			<h3>Variable Costing</h3>
+			<h5>Definition</h5>
+			<p>
+				Definition
+			</p>
+			<h5>Discussion</h5>
+			<p> Compare and contrast variable costing with absorption costing, highlighting the differences between
+				operating income. Discuss the use of variable costing for decision making in a manufacturing company and
+				a service company.
+			</p>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+
+
+		</div>
+		<!--<button class="btn btn-primary btn-lg" id="btn4">See Results!</button>-->
+		<div>
+			<h3>Decision Making</h3>
+			<h5>Definition</h5>
+			<p>
+				Definition
+			</p>
+			<h5>Discussion</h5>
+			<p>
+				Discuss how relevant information is used to make short-term decisions and how pricing affects short-term
+				decisions. Explain the concept of capital budgeting and detail the capital budgeting techniques used to
+				make decisions. This includes, the payback method, the accounting rate of return method, and the
+				discounted cash flow method.
+			</p>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+
+		</div>
+		<div>
+			<h3>Budgets and Standard Costing</h3>
+			<h5>Definition</h5>
+			<p>
+				Definition
+			</p>
+			<h5>Discussion</h5>
+			<p>
+				Evaluate the different types of budgets and discuss how operating and financial budgets are prepared for
+				a manufacturing company. Discuss the use of budgets and standard costs to control business activities.
+				Explain how standard costs are used to determine variances.
+			</p>
+			<h5>References</h5>
+			<p>
+				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
+				Accounting: The Managerial Chapters. New York City: Pearson Education.
+			</p>
+
+
+		</div>
+		<h3>Conclusion</h3>
+		<h4>Summary</h4>
+		<p>
+			Summary goes here
+		</p>
+
+		<div>
+
+			<!--<h4><span id="conclusion" class="vanish">reappearing text goes here</span></h4>-->
+			<!--<button class="btn btn-success btn-lg" id="btn5">See Conclusion</button>-->
+			<!--</div>-->
+		</div>
+		<div class="footer">
+			<hr>
+			<footer>This page was created by Jesse Lott - July 18, 2017, for a Statistics project at <a
+					href="https://ernie.erau.edu/Pages/default.aspx">Embry-Riddle Aeronautical University</a></footer>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</div>
+</body>
+
+</html>
