@@ -152,11 +152,11 @@
 						<br>
 						<p style="color:cyan">Who gets $720.00 worth of flour?</p>
 						<label for="sel1">Select list (select one):</label>
-						<select class="form-control" id="sel1">
+						<select class="form-control" id="sel1"onchange="ProcessFlour()"> 
 							<option hidden disabled selected value> -- select an option -- </option>
-							<option>Crust Artists</option>
-							<option>Diabolical Butchers</option>
-							<option>Gourmet Cheesers</option>							
+							<option value=1>Crust Artists</option>
+							<option value=2>Diabolical Butchers</option>
+							<option value=3>Gourmet Cheesers</option>							
 						</select>
 					</div>					
 					<div class="form-group">
@@ -165,11 +165,11 @@
 						<br>
 						<p style="color:cyan">Who gets $900.00 worth of pepperoni?</p>
 						<label for="sel2">Select list (select one):</label>
-						<select class="form-control" id="sel2">
+						<select class="form-control" id="sel2" onchange="ProcessPepperoni()">
 							<option hidden disabled selected value> -- select an option -- </option>
-							<option>Crust Artists</option>
-							<option>Diabolical Butchers</option>
-							<option>Gourmet Cheesers</option>							
+							<option value=1>Crust Artists</option>
+							<option value=2>Diabolical Butchers</option>
+							<option value=3>Gourmet Cheesers</option>							
 						</select>
 					</div>
 					<div class="form-group">
@@ -178,11 +178,11 @@
 							<br>
 						<p style="color:cyan">Who gets $1,210.00 worth of cheese?</p>
 						<label for="sel3">Select list (select one):</label>
-						<select class="form-control" id="sel3">
+						<select class="form-control" id="sel3" onchange="ProcessCheese()">
 							<option hidden disabled selected value> -- select an option -- </option>
-							<option>Crust Artists</option>
-							<option>Diabolical Butchers</option>
-							<option>Gourmet Cheesers</option>							
+							<option value=1>Crust Artists</option>
+							<option value=2>Diabolical Butchers</option>
+							<option value=3>Gourmet Cheesers</option>							
 						</select>
 						</div>
 					<div class="form-group">
