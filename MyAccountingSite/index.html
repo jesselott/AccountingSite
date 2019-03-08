@@ -143,59 +143,63 @@
 			<p>Practice Process Order Costing!</p>
 			<p>You have been hired in the Raw Materials Department for gourmet pizza giant<em>Pie in the Sky</em>
 			You have just received a shipment of cheese, pepperoni, and flour that is needed on the production floor
-			ASAP. Send the materials to their proper department.</p>
+			ASAP.  We have 500 gourmet pizzas for our dedicated staff to make, so let's get going!</p>
 			<form>					
 					<div class="form-group">
-						<label for="job1direct">Raw Materials (flour)</label>
-						<input type="number" onchange="" class="form-control" id="job1direct" placeholder="0"  value = 720 readonly>
+						<label for="rmf">Raw Materials (flour)</label>
+						<input type="number" class="form-control" id="rmf" placeholder="0"  value = 720 readonly>
 						<br>
-						<p style="color:cyan">Who gets $720.00 worth of cheese?</p>
+						<p style="color:cyan">Who gets $720.00 worth of flour?</p>
 						<label for="sel1">Select list (select one):</label>
-						<select class="form-control" id="raw1">
+						<select class="form-control" id="sel1">
 							<option>Crust Artists</option>
 							<option>Diabolical Butchers</option>
 							<option>Gourmet Cheesers</option>							
 						</select>
 					</div>					
 					<div class="form-group">
-						<label for="job1indirect">Raw Materials (pepperoni)</label>
-						<input type="number" onchange=""  class="form-control" id="job1indirect" placeholder="0" value = 900 readonly>
+						<label for="rmp">Raw Materials (pepperoni)</label>
+						<input type="number"  class="form-control" id="job1indirect" placeholder="0" value = 900 readonly>
 						<br>
 						<p style="color:cyan">Who gets $900.00 worth of pepperoni?</p>
-						<label for="sel1">Select list (select one):</label>
-						<select class="form-control" id="raw1">
+						<label for="sel2">Select list (select one):</label>
+						<select class="form-control" id="sel2">
 							<option>Crust Artists</option>
 							<option>Diabolical Butchers</option>
 							<option>Gourmet Cheesers</option>							
 						</select>
 					</div>
 					<div class="form-group">
-							<label for="job1">Raw Materials (cheese)</label>
-							<input type="number" class="form-control" id="job1" placeholder="0" value = 1210 readonly>
+							<label for="rmc">Raw Materials (cheese)</label>
+							<input type="number" class="form-control" id="rmc" placeholder="0" value = 1210 readonly>
 							<br>
 						<p style="color:cyan">Who gets $1,210.00 worth of cheese?</p>
-						<label for="sel1">Select list (select one):</label>
-						<select class="form-control" id="raw1">
+						<label for="sel3">Select list (select one):</label>
+						<select class="form-control" id="sel3">
 							<option>Crust Artists</option>
 							<option>Diabolical Butchers</option>
 							<option>Gourmet Cheesers</option>							
 						</select>
 						</div>
 					<div class="form-group">
-						<label for="job2direct">Job 2 Direct Costs</label>
-						<input type="number" onchange=""  class="form-control" id="job2direct" placeholder="0">
+						<label for="crustn">Crusting WIP</label>
+						<input type="number" onchange=""  class="form-control" id="crustn" placeholder="0">
 					</div>
 					<div class="form-group">
-						<label for="job2indirect">Job 2 Indirect Costs</label>
-						<input type="number" onchange=""  class="form-control" id="job2indirect" placeholder="0">
+						<label for="topn">Topping WIP</label>
+						<input type="number" onchange=""  class="form-control" id="topn" placeholder="0">
 					</div>
 					<div class="form-group">
-							<label for="job2">Job 2 Total</label>
-							<input type="number" class="form-control" id="job2" placeholder="0" readonly>
+						<label for="cheezn">Cheesing WIP</label>
+						<input type="number" onchange=""  class="form-control" id="cheezn" placeholder="0">
 					</div>
 					<div class="form-group">
-							<label for="jobWip">WIP</label>
-							<input type="number" class="form-control" id="jobWip" placeholder="0" readonly>
+							<label for="costperpizza">Job 2 Total</label>
+							<input type="number" class="form-control" id="costperpizza" placeholder="0" readonly>
+					</div>
+					<div class="form-group">
+							<label for="totalcost">WIP</label>
+							<input type="number" class="form-control" id="totalcost" placeholder="0" readonly>
 					</div>
 					</form>					
 				</form>
