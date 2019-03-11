@@ -74,7 +74,7 @@ function ProcessFlour() {
     if (selected == 1) {
         alert("Congrats, you are a natural!  You sent the flour to the Crusting Department.")
         var totalCost = 720.00 + 648.00 + 367.50;
-        document.getElementById('crustWip').value = totalCost;
+        document.getElementById('crust3').value = totalCost;
 
     }
     else if (selected == 2) {
@@ -96,7 +96,7 @@ function ProcessTomatoes() {
     else if (selected == 2) {
         alert("Wow, you're on a roll!  You sent the tomatoes to the Saucing Department.")
         var totalCost = 900.00 + 600.00 + 122.50;
-        document.getElementById('sauzWip').value = totalCost;
+        document.getElementById('sauz3').value = totalCost;
     }
 
     else {//selected == 3
