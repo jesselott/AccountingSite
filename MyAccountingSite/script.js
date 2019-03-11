@@ -73,6 +73,8 @@ function ProcessFlour() {
 
     if (selected == 1) {
         alert("Congrats, you are a natural!  You sent the flour to the Crusting Department.")
+        var totalCost = 720.00 + 648.00 + 367.50;
+        document.getElementById('crustWip').value = totalCost;
 
     }
     else if (selected == 2) {
@@ -80,11 +82,28 @@ function ProcessFlour() {
     }
 
     else {//selected == 3
-        alert("Ay, mate, this is some funky cheese, we wasted about a quarter of it until we realized...it ain't cheese!  You lose a quarter of your flour, and have to order more, raising your flour costs.")
+        alert("Ay, mate, this is some funky cheese, we wasted about a quarter of it until we realized...it ain't cheese!")
     }
 }
 
 function ProcessTomatoes() {
+    var selected = document.getElementById("sel2").value;
+
+    if (selected == 1) {
+        alert("Whoa, whoa, whoa, slow down Turbo.  We don't need yer stinkin tomatas over ere in Crustin!");
+        
+    }
+    else if (selected == 2) {
+        alert("Wow, you're on a roll!  You sent the tomatoes to the Saucing Department.")
+        var totalCost = 900.00 + 600.00 + 122.50;
+        document.getElementById('sauzWip').value = totalCost;
+    }
+
+    else {//selected == 3
+        alert("We don't make no veggie-tarian pizzers over here, send these tomatoes to get sauced, mate!")
+    }
+}
+
 
 }
 
