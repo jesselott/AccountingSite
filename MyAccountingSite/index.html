@@ -31,31 +31,31 @@
 			</p>
 			<h5>Discussion</h5>
 			<p>
-					The managerial accounting functions of planning, directing, and controlling encompass the information 
-					that business managers need to manage their plants, equipment, and human resources 
-					(Miller-Nobles, Mattison, & Matsumura, 2018).  
+				The managerial accounting functions of planning, directing, and controlling encompass the information
+				that business managers need to manage their plants, equipment, and human resources
+				(Miller-Nobles, Mattison, & Matsumura, 2018).
 			</p>
 			<h5>Practical Use</h5>
 			<p>Calculate your WIP!</p>
 			<form>
 
-					<div class="form-group">
-						<label for="Labor">Labor</label>
-						<input type="number" onchange="CalculateWip()" class="form-control" id="labor" placeholder="0">
-					</div>
-					<div class="form-group">
-						<label for="Materials">Materials</label>
-						<input type="number" onchange="CalculateWip()"  class="form-control" id="materials" placeholder="0">
-					</div>
-					<div class="form-group">
-						<label for="Factory Overhead">Factory Overhead</label>
-						<input type="number" onchange="CalculateWip()"  class="form-control" id="overhead" placeholder="0">
-					</div>
-					<div class="form-group">
-							<label for="WIP">WIP</label>
-							<input type="number" class="form-control" id="wip" placeholder="0" readonly>
-						</div>
-				</form>
+				<div class="form-group">
+					<label for="Labor">Labor</label>
+					<input type="number" onchange="CalculateWip()" class="form-control" id="labor" placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="Materials">Materials</label>
+					<input type="number" onchange="CalculateWip()" class="form-control" id="materials" placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="Factory Overhead">Factory Overhead</label>
+					<input type="number" onchange="CalculateWip()" class="form-control" id="overhead" placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="WIP">WIP</label>
+					<input type="number" class="form-control" id="wip" placeholder="0" readonly>
+				</div>
+			</form>
 			<h5>References</h5>
 			<p>
 				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
@@ -67,47 +67,54 @@
 			<h3>Job Order Costing</h3>
 			<h5>Definition</h5>
 			<p>
-					Job order costing is the process of accumulating costs for each single unique product or specialized service.  
-					The overlying goal of job order costing is to keep track of the costs associated with the action (Miller-Nobles, Mattison, & Matsumura, 2018).  
+				Job order costing is the process of accumulating costs for each single unique product or specialized
+				service.
+				The overlying goal of job order costing is to keep track of the costs associated with the action
+				(Miller-Nobles, Mattison, & Matsumura, 2018).
 			</p>
 			<h5>Discussion</h5>
-			<p>When a job is assigned, direct and indirect costs for the job are added to the Work-In-Progress Inventory (WIP).  
-				Once the work is completed, costs are transferred to Finished Goods (FG).  When the job is sold, 
-				the cost moves into Cost of Goods Sold (COGS) and is removed from FG.  				
+			<p>When a job is assigned, direct and indirect costs for the job are added to the Work-In-Progress Inventory
+				(WIP).
+				Once the work is completed, costs are transferred to Finished Goods (FG). When the job is sold,
+				the cost moves into Cost of Goods Sold (COGS) and is removed from FG.
 			</p>
 			<h5>Practical Use</h5>
 			<p>Practice Job Costing!</p>
-			<form>					
-					<div class="form-group">
-						<label for="job1direct">Job 1 Direct Costs</label>
-						<input type="number" onchange="CalculateJobOne()" class="form-control" id="job1direct" placeholder="0">
-					</div>
-					<div class="form-group">
-						<label for="job1indirect">Job 1 Indirect Costs</label>
-						<input type="number" onchange="CalculateJobOne()"  class="form-control" id="job1indirect" placeholder="0">
-					</div>
-					<div class="form-group">
-							<label for="job1">Job 1 Total</label>
-							<input type="number" class="form-control" id="job1" placeholder="0" readonly>
-						</div>
-					<div class="form-group">
-						<label for="job2direct">Job 2 Direct Costs</label>
-						<input type="number" onchange="CalculateJobTwo()"  class="form-control" id="job2direct" placeholder="0">
-					</div>
-					<div class="form-group">
-						<label for="job2indirect">Job 2 Indirect Costs</label>
-						<input type="number" onchange="CalculateJobTwo()"  class="form-control" id="job2indirect" placeholder="0">
-					</div>
-					<div class="form-group">
-							<label for="job2">Job 2 Total</label>
-							<input type="number" class="form-control" id="job2" placeholder="0" readonly>
-					</div>
-					<div class="form-group">
-							<label for="jobWip">WIP</label>
-							<input type="number" class="form-control" id="jobWip" placeholder="0" readonly>
-					</div>
-					</form>					
-				</form>
+			<form>
+				<div class="form-group">
+					<label for="job1direct">Job 1 Direct Costs</label>
+					<input type="number" onchange="CalculateJobOne()" class="form-control" id="job1direct"
+						placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="job1indirect">Job 1 Indirect Costs</label>
+					<input type="number" onchange="CalculateJobOne()" class="form-control" id="job1indirect"
+						placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="job1">Job 1 Total</label>
+					<input type="number" class="form-control" id="job1" placeholder="0" readonly>
+				</div>
+				<div class="form-group">
+					<label for="job2direct">Job 2 Direct Costs</label>
+					<input type="number" onchange="CalculateJobTwo()" class="form-control" id="job2direct"
+						placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="job2indirect">Job 2 Indirect Costs</label>
+					<input type="number" onchange="CalculateJobTwo()" class="form-control" id="job2indirect"
+						placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="job2">Job 2 Total</label>
+					<input type="number" class="form-control" id="job2" placeholder="0" readonly>
+				</div>
+				<div class="form-group">
+					<label for="jobWip">WIP</label>
+					<input type="number" class="form-control" id="jobWip" placeholder="0" readonly>
+				</div>
+			</form>
+			</form>
 			<h5>References</h5>
 			<p>
 				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
@@ -118,95 +125,120 @@
 			<h3>Process Order Costing</h3>
 			<h5>Definition</h5>
 			<p>
-				An accounting system that accumulates costs by process. Used by companies that manufacture identical units through a series of uniform production steps or 
-				processes (Miller-Nobles, Mattison, & Matsumura, 2018). 
+				An accounting system that accumulates costs by process. Used by companies that manufacture identical
+				units through a series of uniform production steps or
+				processes (Miller-Nobles, Mattison, & Matsumura, 2018).
 			</p>
 			<h5>Discussion</h5>
 			<p>
-				"Where process costing is discussed, it is contrasted with job costing. In job costing, the costs of relatively large and inherently dissimilar products are 
-				tracked to individual jobs. In process costing, the costs of relatively small individual products that are similar or identical are tracked to a time period, 
+				"Where process costing is discussed, it is contrasted with job costing. In job costing, the costs of
+				relatively large and inherently dissimilar products are
+				tracked to individual jobs. In process costing, the costs of relatively small individual products that
+				are similar or identical are tracked to a time period,
 				and then averaged out over the units processed" (Parkinson, 2011).
 			</p>
 			<p>
-				"Process costing is the appropriate approach for any situation in which homogenous units of relatively small individual value are being produced, 
-				where it is either impossible to track costs to individual products, or, though possible, tracking those costs would be prohibitively expensive" (Parkinson, 2011). 
-			</p>			
+				"Process costing is the appropriate approach for any situation in which homogenous units of relatively
+				small individual value are being produced,
+				where it is either impossible to track costs to individual products, or, though possible, tracking those
+				costs would be prohibitively expensive" (Parkinson, 2011).
+			</p>
 			<h5>References</h5>
 			<p>
 				Miller-Nobles, T., Mattison, B., & Matsumura, E. M. (2018). Horngren's Financial & Managerial
 				Accounting: The Managerial Chapters. New York City: Pearson Education.
 				<br>
 				<br>
-				Parkinson, J. (2011, May). COSTING IN PROCESS MANUFACTURING: THE MYTH AND THE REALITY. Cost Management, 25, 6-14. 
+				Parkinson, J. (2011, May). COSTING IN PROCESS MANUFACTURING: THE MYTH AND THE REALITY. Cost Management,
+				25, 6-14.
 				Retrieved from http://search.proquest.com.ezproxy.libproxy.db.erau.edu/docview/874651026?accountid=27203
 			</p>
 			<h5>Practical Use</h5>
 			<p>Practice Process Order Costing!</p>
 			<p>You have been hired in the Raw Materials Department for gourmet pizza giant <em>Pie in the Sky</em>.
-			You have just received a shipment of cheese, pepperoni, and flour that is needed on the production floor
-			ASAP.  We have 500 gourmet pizzas for our dedicated staff to make, so let's get going!</p>
-			<form>					
-					<div class="form-group">
-						<label for="rmf">Raw Materials (flour)</label>
-						<input type="number" class="form-control" id="rmf" placeholder="0"  value = 720 readonly>
-						<br>
-						<p style="color:cyan">Who gets $720.00 worth of flour?</p>
-						<label for="sel1">Select list (select one):</label>
-						<select class="form-control" id="sel1"onchange="ProcessFlour()"> 
-							<option hidden disabled selected value> -- select an option -- </option>
-							<option value=1>Crust Artists</option>
-							<option value=2>Diabolical Butchers</option>
-							<option value=3>Gourmet Cheesers</option>							
-						</select>
-					</div>					
-					<div class="form-group">
-						<label for="rmp">Raw Materials (pepperoni)</label>
-						<input type="number"  class="form-control" id="job1indirect" placeholder="0" value = 900 readonly>
-						<br>
-						<p style="color:cyan">Who gets $900.00 worth of pepperoni?</p>
-						<label for="sel2">Select list (select one):</label>
-						<select class="form-control" id="sel2" onchange="ProcessPepperoni()">
-							<option hidden disabled selected value> -- select an option -- </option>
-							<option value=1>Crust Artists</option>
-							<option value=2>Diabolical Butchers</option>
-							<option value=3>Gourmet Cheesers</option>							
-						</select>
-					</div>
-					<div class="form-group">
-							<label for="rmc">Raw Materials (cheese)</label>
-							<input type="number" class="form-control" id="rmc" placeholder="0" value = 1210 readonly>
-							<br>
-						<p style="color:cyan">Who gets $1,210.00 worth of cheese?</p>
-						<label for="sel3">Select list (select one):</label>
-						<select class="form-control" id="sel3" onchange="ProcessCheese()">
-							<option hidden disabled selected value> -- select an option -- </option>
-							<option value=1>Crust Artists</option>
-							<option value=2>Diabolical Butchers</option>
-							<option value=3>Gourmet Cheesers</option>							
-						</select>
-						</div>
-					<div class="form-group">
-						<label for="crustn">Crusting WIP</label>
-						<input type="number" onchange=""  class="form-control" id="crustn" placeholder="0">
-					</div>
-					<div class="form-group">
-						<label for="topn">Topping WIP</label>
-						<input type="number" onchange=""  class="form-control" id="topn" placeholder="0">
-					</div>
-					<div class="form-group">
-						<label for="cheezn">Cheesing WIP</label>
-						<input type="number" onchange=""  class="form-control" id="cheezn" placeholder="0">
-					</div>
-					<div class="form-group">
-							<label for="costperpizza">Cost per Pizza (500 pies)</label>
-							<input type="number" class="form-control" id="costperpizza" placeholder="0" readonly>
-					</div>
-					<div class="form-group">
-							<label for="totalcost">Total Cost</label>
-							<input type="number" class="form-control" id="totalcost" placeholder="0" readonly>
-					</div>
-					</form>					
-				</form>
+				You have just received a shipment of cheese, pepperoni, and flour that are needed on the production
+				floor
+				ASAP. We have 500 gourmet pizzas for our dedicated staff to make, so let's get going!</p>
+			<p>Labor for crust-makers is $12/hr, for topping specialists is $15/hr, and for cheese-spreaders, $17/hr.
+				To process $20 worth of flour into artsy crust, it takes 1.5 man-hours. <br>
+				To process $45 worth of tomatoes into diabolical sauce, it takes 2 man-hours <br>
+				To process $60 worth of pork bellies into gourmet toppings, it takes 3 man-hours
+
+			</p>
+			<form>
+				<div class="form-group">
+					<label for="rmf">Raw Materials (flour)</label>
+					<input type="number" class="form-control" id="rmf" placeholder="0" value=720 readonly>
+					<br>
+					<p style="color:cyan">Who gets $720.00 worth of flour?</p>
+					<label for="sel1">Select list (select one):</label>
+					<select class="form-control" id="sel1" onchange="ProcessFlour()">
+						<option hidden disabled selected value> -- select an option -- </option>
+						<option value=1>Crust Artists</option>
+						<option value=2>Diabolical Saucers</option>
+						<option value=3>Gourmet Toppers</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="rmp">Raw Materials (tomatoes)</label>
+					<input type="number" class="form-control" id="job1indirect" placeholder="0" value=900 readonly>
+					<br>
+					<p style="color:cyan">Who gets $900.00 worth of tomatoes?</p>
+					<label for="sel2">Select list (select one):</label>
+					<select class="form-control" id="sel2" onchange="ProcessTomatoes()">
+						<option hidden disabled selected value> -- select an option -- </option>
+						<option value=1>Crust Artists</option>
+						<option value=2>Diabolical Saucers</option>
+						<option value=3>Gourmet Toppers</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="rmc">Raw Materials (pork bellies)</label>
+					<input type="number" class="form-control" id="rmc" placeholder="0" value=1200 readonly>
+					<br>
+					<p style="color:cyan">Who gets $1,200.00 worth of pork bellies?</p>
+					<label for="sel3">Select list (select one):</label>
+					<select class="form-control" id="sel3" onchange="ProcessPork()">
+						<option hidden disabled selected value> -- select an option -- </option>
+						<option value=1>Crust Artists</option>
+						<option value=2>Diabolical Saucers</option>
+						<option value=3>Gourmet Toppers</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="crustn">Crusting Labor</label>
+					<input type="number" onchange="" class="form-control" id="crustn" placeholder="0" value=1200 readonly>
+				</div>
+				<div class="form-group">
+					<label for="topn">Saucing Labor</label>
+					<input type="number" onchange="" class="form-control" id="topn" placeholder="0" value=1200 readonly>
+				</div>
+				<div class="form-group">
+					<label for="cheezn">Topping Labor</label>
+					<input type="number" onchange="" class="form-control" id="cheezn" placeholder="0" value=1200 readonly>
+				</div>
+				<div class="form-group">
+					<label for="crustn">Crusting WIP</label>
+					<input type="number" onchange="" class="form-control" id="crustn" placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="topn">Saucing WIP</label>
+					<input type="number" onchange="" class="form-control" id="topn" placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="cheezn">Topping WIP</label>
+					<input type="number" onchange="" class="form-control" id="cheezn" placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="costperpizza">Cost per Pizza (500 pies)</label>
+					<input type="number" class="form-control" id="costperpizza" placeholder="0" readonly>
+				</div>
+				<div class="form-group">
+					<label for="totalcost">Total Cost</label>
+					<input type="number" class="form-control" id="totalcost" placeholder="0" readonly>
+				</div>
+			</form>
+			</form>
 		</div>
 		<div>
 			<h3>Cost Management Systems</h3>
