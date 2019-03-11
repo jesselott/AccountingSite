@@ -130,16 +130,16 @@ function CalculatePizzaCost() {
  var crust = Number(document.getElementById('crust3').value);
  var sauce = Number(document.getElementById('sauz3').value);
  var pork = Number(document.getElementById('pork3').value);
+ var totalCost = 0;
 
  if (crust && sauce && pork) {
 
-    var totalCost = crust + sauce + pork;
+    totalCost = crust + sauce + pork;
     //calc total
     document.getElementById('totalcost').value = totalCost;
     
-    
     //calc price per pie
-    document.getElementById('costperpizza') = Math.floor(totalCost) / 1250;
+    document.getElementById('costperpizza') = (totalCost / 1250);
 
     alert('Congratulations, you helped us have a great week, make a lot of pizzas, and a lot of dough!  Literally.')
 
