@@ -124,3 +124,27 @@ function ProcessPork() {
         document.getElementById('sauz3').value = totalCost;
     }
 }
+
+function CalculatePizzaCost() {
+
+ var crust = document.getElementById('crust3').value;
+ var sauce = document.getElementById('sauz3').value;
+ var pork = document.getElementById('pork3').value;
+
+ if (crust && sauce && pork) {
+
+    var totalCost = crust + sauce + pork;
+    //calc total
+    document.getElementById('totalcost').value = totalCost;
+    
+    
+    //calc price per pie
+    document.getElementById('costperpizza') = totalCost / 1250;
+
+    alert('Congratulations, you helped us have a great week, make a lot of pizzas, and a lot of dough!  Literally.')
+
+ }
+
+
+
+}
