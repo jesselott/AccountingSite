@@ -121,7 +121,7 @@ function ProcessPork() {
     else {//selected == 3
         alert("You're the best!  You sent the pork to the Topping Department.")
         var totalCost = 1020 + 1200 + 245
-        document.getElementById('sauz3').value = totalCost;
+        document.getElementById('pork3').value = totalCost;
     }
 }
 
