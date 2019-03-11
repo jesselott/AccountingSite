@@ -120,7 +120,7 @@ function ProcessPork() {
 
     else {//selected == 3
         alert("You're the best!  You sent the pork to the Topping Department.")
-        var totalCost = 1020 + 1200 + 245
+        var totalCost = 1020 + 1200 + 245;
         document.getElementById('pork3').value = totalCost;
     }
 }
@@ -139,7 +139,7 @@ function CalculatePizzaCost() {
     
     
     //calc price per pie
-    document.getElementById('costperpizza') = totalCost / 1250;
+    document.getElementById('costperpizza') = Number(totalCost) / 1250;
 
     alert('Congratulations, you helped us have a great week, make a lot of pizzas, and a lot of dough!  Literally.')
 
