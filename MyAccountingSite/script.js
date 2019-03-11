@@ -127,9 +127,9 @@ function ProcessPork() {
 
 function CalculatePizzaCost() {
 
- var crust = document.getElementById('crust3').value;
- var sauce = document.getElementById('sauz3').value;
- var pork = document.getElementById('pork3').value;
+ var crust = Number(document.getElementById('crust3').value);
+ var sauce = Number(document.getElementById('sauz3').value);
+ var pork = Number(document.getElementById('pork3').value);
 
  if (crust && sauce && pork) {
 
