@@ -75,7 +75,7 @@ function ProcessFlour() {
         alert("Congrats, you are a natural!  You sent the flour to the Crusting Department.")
         var totalCost = 720.00 + 648.00 + 367.50;
         document.getElementById('crust3').value = totalCost;
-
+        CalculatePizzaCost();
     }
     else if (selected == 2) {
         alert("You send FLOUR?! to the Diabolical Saucers?!! The section manager, Genghis, threatens you and your family over the phone.  You sheepishly hang up and rethink your decision.");
@@ -97,6 +97,7 @@ function ProcessTomatoes() {
         alert("Wow, you're on a roll!  You sent the tomatoes to the Saucing Department.")
         var totalCost = 900.00 + 600.00 + 122.50;
         document.getElementById('sauz3').value = totalCost;
+        CalculatePizzaCost();
     }
 
     else {//selected == 3
@@ -122,6 +123,7 @@ function ProcessPork() {
         alert("You're the best!  You sent the pork to the Topping Department.")
         var totalCost = 1020 + 1200 + 245;
         document.getElementById('pork3').value = totalCost;
+        CalculatePizzaCost();
     }
 }
 
