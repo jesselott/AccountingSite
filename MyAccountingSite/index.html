@@ -166,122 +166,134 @@
 
 			</p>
 			<p>
-				The clean-up crew comes in nightly and refreshes the production stations for the next day's work.  It takes Pie in the Sky 2 days to create 500 gourmet pizzas.  
+				The clean-up crew comes in nightly and refreshes the production stations for the next day's work. It
+				takes Pie in the Sky 2 days to create 500 gourmet pizzas.
 
 			</p>
-			
-				<div class="container">
-						<div class="row">
-							<div class="col" id="crust">
-									<div class="form-group">
-											<label for="rmf">Raw Materials (flour)</label>
-											<input type="number" class="form-control" id="rmf" placeholder="0" value=720 readonly>
-											<br>
-											<p style="color:cyan">Who gets $720.00 worth of flour?</p>
-											<label for="sel1">Select list (select one):</label>
-											<select class="form-control" id="sel1" onchange="ProcessFlour()">
-												<option hidden disabled selected value> -- select an option -- </option>
-												<option value=1>Crust Artists</option>
-												<option value=2>Diabolical Saucers</option>
-												<option value=3>Gourmet Toppers</option>
-											</select>
-										</div>
-										<div class="form-group">
-												<label for="crustn">Crusting Labor: $720.00 worth of flour takes 54 hours to process @ $12 per hr.</label>
-												<input type="number" onchange="" class="form-control" id="crustn" placeholder="0" value=648.00 readonly>
-											</div>
 
-
-
-							</div>
-							<div class="col" id="sauce">
-									<div class="form-group">
-											<label for="rmp">Raw Materials (tomatoes)</label>
-											<input type="number" class="form-control" id="job1indirect" placeholder="0" value=900 readonly>
-											<br>
-											<p style="color:cyan">Who gets $900.00 worth of tomatoes?</p>
-											<label for="sel2">Select list (select one):</label>
-											<select class="form-control" id="sel2" onchange="ProcessTomatoes()">
-												<option hidden disabled selected value> -- select an option -- </option>
-												<option value=1>Crust Artists</option>
-												<option value=2>Diabolical Saucers</option>
-												<option value=3>Gourmet Toppers</option>
-											</select>
-										</div>
-										<div class="form-group">
-												<label for="topn">Saucing Labor: $900.00 worth of tomatoes takes 40 hours to process @ $15 per hr.</label>
-												<input type="number" onchange="" class="form-control" id="topn" placeholder="0" value=600.00 readonly>
-											</div>
-
-
-								
-							</div>
-							<div class="col" id="topping">
-									<div class="form-group">
-											<label for="rmc">Raw Materials (pork bellies)</label>
-											<input type="number" class="form-control" id="rmc" placeholder="0" value=1200 readonly>
-											<br>
-											<p style="color:cyan">Who gets $1,200.00 worth of pork bellies?</p>
-											<label for="sel3">Select list (select one):</label>
-											<select class="form-control" id="sel3" onchange="ProcessPork()">
-												<option hidden disabled selected value> -- select an option -- </option>
-												<option value=1>Crust Artists</option>
-												<option value=2>Diabolical Saucers</option>
-												<option value=3>Gourmet Toppers</option>
-											</select>
-										</div>
-										<div class="form-group">
-												<label for="cheezn">Topping Labor: $1200 worth of pork bellies takes 60 hours to process @ $17 per hr.</label>
-												<input type="number" onchange="" class="form-control" id="cheezn" placeholder="0" value=1020.00 readonly>
-											</div>
-
-								
-							</div>
+			<div class="container">
+				<div class="row">
+					<div class="col" id="crust">
+						<div class="form-group">
+							<label for="rmf">Raw Materials (flour)</label>
+							<input type="number" class="form-control" id="rmf" placeholder="0" value=720 readonly>
+							<br>
+							<p style="color:cyan">Who gets $720.00 worth of flour?</p>
+							<label for="sel1">Select list (select one):</label>
+							<select class="form-control" id="sel1" onchange="ProcessFlour()">
+								<option hidden disabled selected value> -- select an option -- </option>
+								<option value=1>Crust Artists</option>
+								<option value=2>Diabolical Saucers</option>
+								<option value=3>Gourmet Toppers</option>
+							</select>
 						</div>
+						<div class="form-group">
+							<label for="crustn">Crusting Labor: $720.00 worth of flour takes 54 hours to process @ $12
+								per hr.</label>
+							<input type="number" onchange="" class="form-control" id="crustn" placeholder="0"
+								value=648.00 readonly>
+						</div>
+
+
+
+					</div>
+					<div class="col" id="sauce">
+						<div class="form-group">
+							<label for="rmp">Raw Materials (tomatoes)</label>
+							<input type="number" class="form-control" id="job1indirect" placeholder="0" value=900
+								readonly>
+							<br>
+							<p style="color:cyan">Who gets $900.00 worth of tomatoes?</p>
+							<label for="sel2">Select list (select one):</label>
+							<select class="form-control" id="sel2" onchange="ProcessTomatoes()">
+								<option hidden disabled selected value> -- select an option -- </option>
+								<option value=1>Crust Artists</option>
+								<option value=2>Diabolical Saucers</option>
+								<option value=3>Gourmet Toppers</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="topn">Saucing Labor: $900.00 worth of tomatoes takes 40 hours to process @ $15
+								per hr.</label>
+							<input type="number" onchange="" class="form-control" id="topn" placeholder="0" value=600.00
+								readonly>
+						</div>
+
+
+
+					</div>
+					<div class="col" id="topping">
+						<div class="form-group">
+							<label for="rmc">Raw Materials (pork bellies)</label>
+							<input type="number" class="form-control" id="rmc" placeholder="0" value=1200 readonly>
+							<br>
+							<p style="color:cyan">Who gets $1,200.00 worth of pork bellies?</p>
+							<label for="sel3">Select list (select one):</label>
+							<select class="form-control" id="sel3" onchange="ProcessPork()">
+								<option hidden disabled selected value> -- select an option -- </option>
+								<option value=1>Crust Artists</option>
+								<option value=2>Diabolical Saucers</option>
+								<option value=3>Gourmet Toppers</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="cheezn">Topping Labor: $1200 worth of pork bellies takes 60 hours to process @
+								$17 per hr.</label>
+							<input type="number" onchange="" class="form-control" id="cheezn" placeholder="0"
+								value=1020.00 readonly>
+						</div>
+
+
+					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="row">
 					<div class="col" id="wip1">
-							<p style="color:cyan">WIP: Direct Labor + Direct Materials + Factory O/H.</p>
-							<div class="form-group">
-								<label for="crustn">Crusting WIP</label>
-								<input type="number" onchange="" class="form-control" id="crustn" placeholder="0">
-							</div>
-							
-							<div class="form-group">
-								<label for="topn">Saucing WIP</label>
-								<input type="number" onchange="" class="form-control" id="topn" placeholder="0">
-							</div>
-							<div class="form-group">
-								<label for="cheezn">Topping WIP</label>
-								<input type="number" onchange="" class="form-control" id="cheezn" placeholder="0">
-							</div>
+						<p style="color:cyan">WIP: Direct Labor + Direct Materials + Factory O/H.</p>
+						<div class="form-group">
+							<label for="crustn">Crusting WIP</label>
+							<input type="number" onchange="" class="form-control" id="crustn" placeholder="0">
+						</div>
+
+						<div class="form-group">
+							<label for="topn">Saucing WIP</label>
+							<input type="number" onchange="" class="form-control" id="topn" placeholder="0">
+						</div>
+						<div class="form-group">
+							<label for="cheezn">Topping WIP</label>
+							<input type="number" onchange="" class="form-control" id="cheezn" placeholder="0">
+						</div>
 
 					</div>
 					<div class="col" id="misc">
-							<div class="form-group">
-									<label for="costperpizza">Cost per Pizza (500 pies)</label>
-									<input type="number" class="form-control" id="costperpizza" placeholder="0" readonly>
-								</div>
-								<div class="form-group">
-									<label for="totalcost">Total Cost</label>
-									<input type="number" class="form-control" id="totalcost" placeholder="0" readonly>
-								</div>
+						<div class="form-group">
+							<label for="costperpizza">Cost per Pizza (500 pies)</label>
+							<input type="number" class="form-control" id="costperpizza" placeholder="0" readonly>
+						</div>
+						<div class="form-group">
+							<label for="totalcost">Total Cost</label>
+							<input type="number" class="form-control" id="totalcost" placeholder="0" readonly>
+						</div>
 					</div>
 				</div>
-				
-				
 
-				
-				
-				
-				
-				
-				
-				
-			
-			
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 		</div>
-		
+
 		<div class="footer">
 			<hr>
 			<footer>This page was created by Jesse Lott - March 11, 2019, for an Accounting project at <a
