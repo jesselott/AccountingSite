@@ -76,7 +76,7 @@ function ProcessFlour() {
 
     }
     else if (selected == 2) {
-        alert("You send FLOUR?! to the Diabolical Butchers?!! The section manager, Genghis, threatens you and your family over the phone.  You sheepishly hang up and rethink your decision.");
+        alert("You send FLOUR?! to the Diabolical Saucers?!! The section manager, Genghis, threatens you and your family over the phone.  You sheepishly hang up and rethink your decision.");
     }
 
     else {//selected == 3
@@ -84,7 +84,7 @@ function ProcessFlour() {
     }
 }
 
-function ProcessPepperoni() {
+function ProcessTomatoes() {
 
 }
 
