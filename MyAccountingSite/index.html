@@ -167,7 +167,7 @@
 			</p>
 			<p>
 				The clean-up crew comes in nightly and refreshes the production stations for the next day's work. It
-				takes Pie in the Sky 2 days to create 500 gourmet pizzas.  Cleaning costs $49 per hour.
+				takes Pie in the Sky 5 days to create 2000 gourmet pizzas. Cleaning costs $49 per hour.
 
 			</p>
 
@@ -177,7 +177,7 @@
 						<h5>Crusting</h5>
 						<div class="form-group">
 							<label for="rmf">Raw Materials (flour)</label>
-							<input type="number" class="form-control" id="rmf" placeholder="0" value=720 readonly>
+							<input type="number" class="form-control" id="rmf" placeholder="0" value=720.00 readonly>
 							<br>
 							<p style="color:cyan">Who gets $720.00 worth of flour?</p>
 							<label for="sel1">Select list (select one):</label>
@@ -195,9 +195,10 @@
 								value=648.00 readonly>
 						</div>
 						<div class="form-group">
-								<label for="crustn2">Sauce O/H: It takes the cleaning crew 2 hours to refresh the crust production line for the next day.</label>
-								<input type="number" onchange="" class="form-control" id="crustn2" placeholder="0" value=196.00
-									readonly>
+							<label for="crustn2">Crust O/H: It takes the cleaning crew 1.5 hours to refresh the crust
+								production line for the next day.</label>
+							<input type="number" onchange="" class="form-control" id="crustn2" placeholder="0"
+								value=367.50 readonly>
 						</div>
 
 
@@ -221,13 +222,14 @@
 						<div class="form-group">
 							<label for="sauz">Saucing Labor: $900.00 worth of tomatoes takes 40 hours to process @ $15
 								per hr.</label>
-							<input type="number" onchange="" class="form-control" id="sauz1" placeholder="0" value=600.00
-								readonly>
+							<input type="number" onchange="" class="form-control" id="sauz1" placeholder="0"
+								value=600.00 readonly>
 						</div>
 						<div class="form-group">
-							<label for="sauz">Sauce O/H: It takes the cleaning crew 2 hours to refresh the sauce production line for the next day.</label>
-							<input type="number" onchange="" class="form-control" id="sauz2" placeholder="0" value=196.00
-								readonly>
+							<label for="sauz">Sauce O/H: It takes the cleaning crew .5 hours to refresh the sauce
+								production line for the next day.</label>
+							<input type="number" onchange="" class="form-control" id="sauz2" placeholder="0"
+								value=122.50 readonly>
 						</div>
 
 
@@ -237,7 +239,7 @@
 						<h5>Toppings</h5>
 						<div class="form-group">
 							<label for="rmc">Raw Materials (pork bellies)</label>
-							<input type="number" class="form-control" id="rmc" placeholder="0" value=1200 readonly>
+							<input type="number" class="form-control" id="rmc" placeholder="0" value=1200.00 readonly>
 							<br>
 							<p style="color:cyan">Who gets $1,200.00 worth of pork bellies?</p>
 							<label for="sel3">Select list (select one):</label>
@@ -255,14 +257,15 @@
 								value=1020.00 readonly>
 						</div>
 						<div class="form-group">
-								<label for="cheezn2">Sauce O/H: It takes the cleaning crew 2 hours to refresh the topping production line for the next day.</label>
-								<input type="number" onchange="" class="form-control" id="cheezn2" placeholder="0" value=196.00
-									readonly>
+							<label for="cheezn2">Topping O/H: It takes the cleaning crew 1 hour to refresh the topping
+								production line for the next day.</label>
+							<input type="number" onchange="" class="form-control" id="cheezn2" placeholder="0"
+								value=245.00 readonly>
 						</div>
 
 
 					</div>
-				</div>			
+				</div>
 				<div class="row">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="wip1">
 						<h5>WIP: Direct Labor + Direct Materials + Factory O/H.</h5>
@@ -284,7 +287,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="misc">
 						<h5>Total Cost</h5>
 						<div class="form-group">
-							<label for="costperpizza">Cost per Pizza (500 pies)</label>
+							<label for="costperpizza">Cost per Pizza (1000 pies)</label>
 							<input type="number" class="form-control" id="costperpizza" placeholder="0" readonly>
 						</div>
 						<div class="form-group">
@@ -295,7 +298,7 @@
 				</div>
 
 			</div>
-			
+
 
 
 
