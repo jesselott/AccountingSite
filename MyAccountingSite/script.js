@@ -143,7 +143,7 @@ function CalculatePizzaCost() {
     var costPerPizza = totalCost / 1250;
 
     //calc price per pie
-    document.getElementById('costperpizza') = costPerPizza;
+    document.getElementById('costperpizza').value = costPerPizza;
 
     alert('Congratulations, you helped us have a great week, make a lot of pizzas, and a lot of dough!  Literally.')
 
