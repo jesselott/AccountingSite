@@ -107,6 +107,20 @@ function ProcessTomatoes() {
 
 
 
-function ProcessCheese() {
+function ProcessPork() {
+    var selected = document.getElementById("sel3").value;
 
+    if (selected == 1) {
+        alert("Whoa, whoa, whoa, slow down Turbo.  We don't need yer stinkin pork butts over ere in Crustin!");
+        
+    }
+    else if (selected == 2) {
+        alert("You send PORK?! to the Diabolical Saucers?!! The section manager, Genghis, threatens you and your family over the phone.  You sheepishly hang up and rethink your decision.");
+    }
+
+    else {//selected == 3
+        alert("You're the best!  You sent the pork to the Topping Department.")
+        var totalCost = 1020 + 1200 + 245
+        document.getElementById('sauz3').value = totalCost;
+    }
 }
